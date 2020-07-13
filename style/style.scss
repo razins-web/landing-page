@@ -1,0 +1,334 @@
+body {
+  width: 1440px;
+  height: 726px;
+  background: #CCCCCC;
+}
+
+a {
+  text-decoration: none;
+}
+
+#rectangle {
+  width: 100%;
+  height: 726px;
+  background-image: url('../images/rectangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#top-menu {
+  display: flow-root;
+  padding: 37px 150px;
+}
+
+#top-menu a {
+  width: 81px;
+  height: 15px;
+  margin-right: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.urls img, .urls svg {
+  vertical-align: top;
+}
+
+#logo {
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.urls {
+  float: right;
+}
+
+.download-icon {
+      margin-right: 6px;
+}
+
+header {
+  width: 549px;
+  height: 304px;
+  margin-top: 207px;
+  margin-left: 149px;
+}
+
+.text1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 53.2px;
+  line-height: 62px;
+  color: #FFFFFF;
+}
+
+.text2 {
+  margin-top: 11px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.2px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.YTbutton {
+  width: 179px;
+  height: 54px;
+  margin-top: 42px;
+  background: #F44336;
+  box-shadow: 0px 2px 2px rgba(244, 67, 54, 0.14);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.VIcon {
+  display: inline-flex;
+  margin-top: 19px;
+  margin-left: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.VIcon::before {
+    content:url('../images/YTIcon.svg')
+}
+
+main {
+  width: 1380px;
+  height: 2045px;
+  display: block;
+  margin: -60px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.Mtext1 {
+  margin-left: 552px;
+  margin-top: 95px;
+  display: inline-flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36.4px;
+  line-height: 43px;
+  color: #3C4858;
+}
+
+.Mtext2 {
+  display: inline-flex;
+  width: 723px;
+  height: 70px;
+  margin-left: 331px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17.5px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+}
+
+#features {
+  display: flex;
+  margin: 161px 138px 190px 138px;
+  justify-content: space-between;
+}
+
+#features .FF {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #3C4858;
+}
+
+.FFC {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #999999;
+}
+
+.texticon {
+  width: 328px;
+  height: 201px;
+  text-align: center;
+  display: inline-block;
+}
+
+#team {
+  width: 1133px;
+  height: 544px;
+  display: inline-block;
+  margin-left: 125px;
+}
+
+#team img {
+  width: 170px;
+  height: 170px;
+}
+
+.title {
+  margin-bottom: 86px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36.4px;
+  line-height: 43px;
+  color: #3C4858;
+  text-align: center;
+}
+
+.teaminside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teamnames {
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18.2px;
+  line-height: 21px;
+  color: #3C4858;
+}
+
+.profile {
+  width: 352px;
+  height: 415px;
+  text-align: center;
+}
+
+.prof {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.65px;
+  line-height: 16px;
+  color: #777777;
+}
+
+.smallicons {
+    display: flex;
+    align-items: center;
+    padding: 7px 105px;
+    justify-content: space-evenly;
+}
+
+#wwu {
+  width: 753px;
+  height: 423px;
+  margin: 182px 315px;
+}
+
+.textwwu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36.4px;
+  line-height: 43px;
+  color: #3C4858;
+  text-align: center;
+  margin: auto;
+}
+
+.downtext {
+  margin-top: 38px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.2px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+}
+
+#YNYE {
+  width: 340px;
+  height: 38px;
+  margin-top: 36px;
+  margin-left: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+}
+
+#YM {
+  width: 721px;
+  height: 92px;
+  margin-top: 38px;
+  margin-left: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.underline {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+#YM:focus, #YNYE:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #9C27B0;
+  border: none;
+  border-bottom: 1px solid #9C27B0;
+}
+
+.sub {
+  width: 148px;
+  height: 41px;
+  margin: 25px 311px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FFFFFF;
+  background: #9C27B0;
+  box-shadow: 0px 2px 2px rgba(156, 39, 176, 0.2);
+  border-radius: 3px;
+  border: none;
+}
+
+footer {
+  width: 1122px;
+  height: 17px;
+}
+
+#foot-menu {
+
+}
