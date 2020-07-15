@@ -1,11 +1,16 @@
 body {
-  width: 1440px;
-  height: 726px;
-  background: #CCCCCC;
+  display: grid;
+  width: 100%;
+  background: #E5E5E5;
 }
 
 a {
   text-decoration: none;
+}
+
+#BG {
+  background: #CCCCCC;
+  display: inline-grid;
 }
 
 #rectangle {
@@ -49,6 +54,10 @@ a {
   color: #FFFFFF;
 }
 
+#togglemenu {
+  display: none;
+}
+
 .urls {
   float: right;
 }
@@ -60,7 +69,7 @@ a {
 header {
   width: 549px;
   height: 304px;
-  margin-top: 207px;
+  margin-top: 146px;
   margin-left: 149px;
 }
 
@@ -96,12 +105,12 @@ header {
 .VIcon {
   display: inline-flex;
   margin-top: 19px;
-  margin-left: 3px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+  color: #FFFFFF;
 }
 
 .VIcon::before {
@@ -109,32 +118,33 @@ header {
 }
 
 main {
-  width: 1380px;
-  height: 2045px;
-  display: block;
-  margin: -60px 30px;
+  display: flex;
+  margin-top: -65px;
+}
+
+#maincontent {
+  width: 100%;
+  margin: 0 30px;
   background: #FFFFFF;
   box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
 }
 
 .Mtext1 {
-  margin-left: 552px;
-  margin-top: 95px;
-  display: inline-flex;
+  margin-top: 91px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 36.4px;
   line-height: 43px;
   color: #3C4858;
+  text-align: center;
 }
 
 .Mtext2 {
-  display: inline-flex;
+  margin: auto;
   width: 723px;
   height: 70px;
-  margin-left: 331px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -170,6 +180,10 @@ main {
   color: #999999;
 }
 
+.FFC a {
+  color: #9C27B0;
+}
+
 .texticon {
   width: 328px;
   height: 201px;
@@ -178,10 +192,6 @@ main {
 }
 
 #team {
-  width: 1133px;
-  height: 544px;
-  display: inline-block;
-  margin-left: 125px;
 }
 
 #team img {
@@ -202,7 +212,8 @@ main {
 
 .teaminside {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 0 200px;
 }
 
 .teamnames {
@@ -219,6 +230,7 @@ main {
   width: 352px;
   height: 415px;
   text-align: center;
+  margin-top: 86px;
 }
 
 .prof {
@@ -238,9 +250,8 @@ main {
 }
 
 #wwu {
-  width: 753px;
-  height: 423px;
   margin: 182px 315px;
+  text-align: center;
 }
 
 .textwwu {
@@ -255,6 +266,9 @@ main {
 }
 
 .downtext {
+  margin: auto;
+  width: 753px;
+  height: 72px;
   margin-top: 38px;
   font-family: Roboto;
   font-style: normal;
@@ -311,7 +325,7 @@ main {
 .sub {
   width: 148px;
   height: 41px;
-  margin: 25px 311px;
+  margin: 25px 311px 84px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -325,10 +339,209 @@ main {
 }
 
 footer {
-  width: 1122px;
-  height: 17px;
+  display: flex;
+  margin: 28px 153px 32px 165px;
+  justify-content: space-between;
 }
 
 #foot-menu {
+}
 
+#foot-menu a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #333333;
+  margin-right: 33px;
+}
+
+footer p {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: center;
+  color: #000000;
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: auto;
+    background: #CCCCCC;
+  }
+
+  #BG{
+    width: 100%;
+    display: block;
+  }
+
+  #rectangle {
+    width: 100%;
+    height: 597px;
+  }
+
+  #top-menu {
+    width: 100%;
+    height: 67px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  header {
+    width: 716px;
+    height: 302px;
+    margin: 107px 28px 59px 0;
+  }
+
+  header div {
+    margin: 0 28px 0 24px;
+  }
+
+  #top-menu {
+    padding: 0;
+  }
+
+  #togglemenu {
+    display: none;
+  }
+
+  #logo, .urls {
+    padding: 22px 0;
+    margin-left: 24px;
+  }
+
+  #maincontent {
+    margin: 0px 10px
+  }
+
+  #features {
+    display: grid;
+    width: 328px;
+    margin: 162px auto;
+  }
+
+.texticon {
+  padding: 0 0 107px 0;
+}
+
+  #wwu {
+    margin: auto;
+  }
+
+  .teaminside {
+    display: grid;
+  }
+
+  footer {
+    width: 459px;
+    height: 62px;
+    margin: 31px auto 26px 39px;
+    display: block;
+  }
+}
+  @media screen and (max-width: 425px) {
+    body {
+      margin: auto;
+      background: #CCCCCC;
+  }
+
+    #BG{
+    width: 100%;
+    display: block;
+  }
+
+    #rectangle {
+      width: 100%;
+      height: 664px;
+  }
+
+    #top-menu {
+      width: 100%;
+      height: 67px;
+      background: rgba(0, 0, 0, 0.4);
+      display: flex;
+      justify-content: space-between;
+  }
+
+    #togglemenu {
+      width: 22px;
+      height: 14px;
+      display: block;
+      content: url(../images/menu.png);
+      margin: 18px 25px 30px auto;
+    }
+
+    .urls {
+      display: none;
+    }
+
+    header {
+      width: 383px;
+      height: 416px;
+      margin: 112px 27px 20px 15px;
+    }
+
+    #maincontent {
+      height: 3718px;
+    }
+
+    .Mtext2 {
+      width: 368px;
+      height: 139px;
+    }
+
+    #features {
+      display: grid;
+    }
+
+    #team {
+    width: 373px;
+    margin: auto;
+    }
+
+    h2 {
+    margin: auto;
+    width: 268px;
+    height: 43px;
+    text-align: end;
+    }
+
+    #wwu {
+    display: block;
+    max-width: 425px;
+    height: 548px;
+    margin: auto;
+    }
+
+    #wwu p {
+    width: 378px;
+    height: 123px;
+    }
+
+    #wwu input {
+      width: 378px;
+      height: 38px;
+      margin-left: 0;
+    }
+
+    #wwu .sub {
+      width: 148px;
+      height: 41px;
+      margin: 24px auto 79px;
+    }
+
+    footer {
+      width: 321px;
+      height: 63px;
+      margin: 31px auto 26px 39px;
+      display: block;
+    }
+
+    footer p {
+      float: none;
+    }
 }
