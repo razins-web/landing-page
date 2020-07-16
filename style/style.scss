@@ -157,7 +157,7 @@ main {
 #features {
   display: flex;
   margin: 161px 138px 190px 138px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 #features .FF {
@@ -189,6 +189,14 @@ main {
   height: 201px;
   text-align: center;
   display: inline-block;
+}
+
+.texticon2 {
+  width: 328px;
+  height: 201px;
+  text-align: center;
+  display: inline-block;
+  margin: auto 62px;
 }
 
 #team {
@@ -231,6 +239,7 @@ main {
   height: 415px;
   text-align: center;
   margin-top: 86px;
+  margin-right: 36px;
 }
 
 .prof {
