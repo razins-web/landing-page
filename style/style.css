@@ -98,7 +98,7 @@ header {
   color: #FFFFFF; }
 
 .VIcon::before {
-  content: url("../images/YTIcon.svg"); }
+  content: url("../images/YTicon.svg"); }
 
 main {
   display: flex;
@@ -472,6 +472,5 @@ footer p {
 
   footer p {
     float: none; } }
-    
 
 /*# sourceMappingURL=style.css.map */
